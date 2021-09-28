@@ -12,6 +12,7 @@ arq = open('registrados.txt')
 print('Efetue o seu login')
 nome_login = input('Digite o seu nome de usuario: ')
 
+
 registrados = arq.readlines()
 if nome_login + '\n' in registrados:
     print('Bem vindo, {}!'.format(nome_login))

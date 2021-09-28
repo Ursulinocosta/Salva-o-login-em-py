@@ -7,6 +7,7 @@ arq.write('{}\n'.format(nome_usuario))
 print('Cadastro realizado com sucesso!\n')
 arq.close() 
 
+
 arq = open('registrados.txt') 
 print('Efetue o seu login')
 nome_login = input('Digite o seu nome de usuario: ')
